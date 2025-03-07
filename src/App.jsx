@@ -12,7 +12,7 @@ const App = () => {
   const { page } = pageInfo;
   if (page === 'main') return <div className='app'><MainPage user={user}
     pageInfo={pageInfo} setPageInfo={setPageInfo} /></div>;
-  if (page === 'wiki') return <div className='app'><WikiPage user={user}
+  if (page === 'history') return <div className='app'><HistoryPage user={user}
     pageInfo={pageInfo} setPageInfo={setPageInfo} /></div>;
   return <div className='app'><p>Invalid page</p></div>;
 };
